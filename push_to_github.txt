@@ -1,0 +1,9 @@
+git lfs install 
+git init
+git lfs track ".h5"
+git add .gitattributes
+git add .
+git commit -m "message"
+git branch -M main
+git remote add "git url" 
+git push -u origin main
